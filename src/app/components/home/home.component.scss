@@ -23,7 +23,40 @@ main {
         span {
             color: var(--primary);
 
+        }   
+    }
+
+    .dot{
+        text-align: center;
+    }
+
+
+    .parceiros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 12px;
+
+        h4 {
+            font-size: 1.7rem;
+            color: var(--gray);
         }
-        
+
+        p {
+            font-size: .865rem;
+            margin-bottom: 20px;
+        }
+        .imgs-parc {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 120px;
+        }
     }
 }
+
+
+    

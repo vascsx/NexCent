@@ -10,15 +10,12 @@ header {
 
         li {
             list-style: none;
-            color: var(--d-gray);
-            font-size: .95rem;
+            font-size: 1rem;
+            font-weight: 500;
         }
-    }
-    button {
-        background: var(--primary);
-        padding: 10px;
-        border: none;
-        border-radius: 3px;
-        color: var(--white);
+
+        a {
+            color: var(--d-gray);
+        }
     }
 }
