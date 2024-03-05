@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --d-gray: #4D4D4D;
+    --gray: #717171; 
+    --black: ##263238;
+    --grey: #89939E;
+    --grey-blue: #ABBED1;
+    --primary: #28CB8B;
+    --silver: ##F5F7FA;
+    --white:#FFF;
+}

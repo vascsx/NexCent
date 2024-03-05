@@ -1,0 +1,29 @@
+main {
+    background-color: var(--silver);
+
+    .main-content {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 75px 80px;
+        gap: 80px;
+    }
+
+    .text-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        h1 {
+            font-size: 45px;
+            margin-right: 80px;
+        }
+
+        span {
+            color: var(--primary);
+
+        }
+        
+    }
+}
