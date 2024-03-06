@@ -1,0 +1,48 @@
+section {
+    margin: 50px;
+    .text {
+        text-align: center;
+        
+        h4 {
+            font-size: 32px;
+            color: var(--d-gray);
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: var(--gray);
+            font-size: 1rem;
+        }
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        border: 1px solid var(--d-gray);
+        border-radius: 10px;
+        background-color: var(--white);
+        box-shadow: 0 0 10px var(--d-gray);
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .content-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 70px;
+    }
+}

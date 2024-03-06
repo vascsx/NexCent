@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { ButtonComponent } from '../button/button.component';
+import { SobreComponent } from '../sobre/sobre.component';
+import { BoxComponent } from '../box/box.component';
+import { BoxModule } from '../../modules/box/box.module';
 
 @Component({
     selector: 'app-home',
@@ -9,8 +12,8 @@ import { ButtonComponent } from '../button/button.component';
     styleUrl: './home.component.scss',
     imports: [
       HeaderComponent,
-      ButtonComponent
-    ]
+      ButtonComponent,
+      SobreComponent,]
 })
 export class HomeComponent {
 
